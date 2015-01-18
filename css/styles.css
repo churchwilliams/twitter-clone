@@ -64,6 +64,7 @@ body {
 	padding: 5px 10px;
 	font-size: 13px;
 	font-weight: bold;
+
 }
 
 /* PAGE STRUCTURE */
@@ -129,7 +130,9 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+			visibility: hidden;
 		}
+
 			#tweet-controls div {
 				display: inline-block;
 			}
@@ -137,6 +140,18 @@ body {
 				font-size: 14px;
 				color: #999;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
+			}
+
+			.tweet-compose-magnify {
+
+				width: 200%;
+				height: 5em;
+				font-size: 13px;
+				padding: 10px;
+				border: 2px solid #ccc;
+				border-radius: 6px;
+				margin-bottom: 1em;
+				box-sizing: border-box;
 			}
 
 /* TWEET */
